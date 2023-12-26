@@ -1,36 +1,24 @@
-<!doctype html>
 <html lang="en"> 
  <head> 
-  <meta charset="UTF-8"> 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>HAPPY NEW YEAR</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&amp;display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="style.css"> 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&amp;display=swap"> 
  </head> 
  <body> 
-  <canvas id="canvas">
-  </canvas> 
-  <h1 class="title">2024</h1>
-  <div id="countdown-box" class="cdb"> 
-   <div class="cdi"> <span id="d">0</span> 
-    <div id="d-lbl" class="cdi-lbl">
-      DAYS 
-    </div> 
+  <div class="wrapper"> 
+   <div class="heading"> 
+    <h3>Countdown Till</h3> 
+    <h1>2024</h1> 
    </div> 
-   <div class="cdi"> <span id="h">0</span> 
-    <div id="h-lbl" class="cdi-lbl">
-      HOURS 
+   <div class="countdown"> 
+    <div class="box"> <span class="num" id="day-box">00</span> <span class="text">Days</span> 
     </div> 
-   </div> 
-   <div class="cdi"> <span id="m">0</span> 
-    <div id="m-lbl" class="cdi-lbl">
-      MINUTES 
+    <div class="box"> <span class="num" id="hr-box">00</span> <span class="text">Hours</span> 
     </div> 
-   </div> 
-   <div class="cdi"> <span id="s">0</span> 
-    <div id="s-lbl" class="cdi-lbl">
-      SECONDS 
+    <div class="box"> <span class="num" id="min-box">00</span> <span class="text">Minutes</span> 
+    </div> 
+    <div class="box"> <span class="num" id="sec-box">00</span> <span class="text">Seconds</span> 
     </div> 
    </div> 
   </div> 
